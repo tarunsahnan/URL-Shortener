@@ -1,0 +1,66 @@
+.mainComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.mainHeading {
+  font-size: 7ch;
+  text-transform: uppercase;
+  /* margin-top: 40%; */
+  color: #f4d1ae;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 4vw;
+}
+.button {
+  margin: 20px;
+  min-width: 100px;
+  padding: 10px 16px;
+  background-color: rgb(67, 67, 227);
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: blue;
+}
+.urlInput {
+  display: block !important;
+  color: red !important;
+  font-size: 2ch;
+  padding: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+input:focus-within {
+  outline: none;
+}
+.outputMajorDiv {
+
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.output {
+  
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+/* a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2;
+} */
